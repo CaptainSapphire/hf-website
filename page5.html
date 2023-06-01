@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Schedule a Repair</title>
@@ -21,5 +21,29 @@
     </nav>
     <main>
       <h1>Schedule a Repair</h1>
-      <p>  </p>
- 
+<!-- CREATE ACTUAL FUNCTIONALITY -->
+  <form>
+    <p>Please fill out the following to schedule a repair.</p>
+    <form method="post" action='https://register-demo.freecodecamp.org'>
+      <fieldset>
+        <label for="first-name">Enter Your First & Last Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <br>
+        <label for="pnumber">Enter Your Phone number: <input id="pnumber" name="pnumber" type="number" required /></label>
+      
+        <br>
+        <label for="service">What service?
+          <select id="service" name="serice">
+            <option value="">  </option>
+            <option value="1"> Single Pad Replacement-25$</option>
+            <option value="2">Custom</option>
+          </select>
+    </fieldset>
+    <!-- Create a list of Terms and Conditions on it's own page probably, will want to also link this in footer -->
+    <label for="terms-and-conditions">
+      <input id="terms-and-conditions" type="checkbox"  name="terms-and-conditions" required /> I accept the <a href="/page6.html" style="color: #385780">terms and conditions.</a>
+    </label>
+  </fieldset>
+  <br>
+      <input type="submit" value="Submit" />
+    </form>
+  </main>
