@@ -22,12 +22,13 @@ nav {
 
 nav a {
   display: block;
-  min-width: 2rem;
+  min-width: 6rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
-  border: solid 1px #B59521;
+  border: solid 3px #B59521;
   text-align: center;
   text-decoration: none;
+  font-size:200%; 
   color: #363636;
 }
 
@@ -47,4 +48,8 @@ h1 {
 }
 .HFWR {
   font-family: Geneva, sans-serif;
+}
+nav a:hover {
+  background: grey;
+  color: white;
 }
