@@ -45,8 +45,9 @@ main {
 
 h1 {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 200%;
 }
+/*above, 200% is the same as 2rem*/
 .FWR {
   font-family: Geneva, sans-serif;
   border: solid 3px #B59521;
