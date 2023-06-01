@@ -56,3 +56,6 @@ nav a:hover {
   background: grey;
   color: white;
 }
+strong {
+  font-size: 150%;
+}
