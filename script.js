@@ -1,5 +1,6 @@
-console.log('Hello!');
 let slideIndex = 0;
+showSlides();
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -9,9 +10,5 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 30000); // Change image every 30 seconds
-}  
-
-console.log(window.location.pathname); if (window.location.pathname == "/index.html") {
-  showSlides();
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
