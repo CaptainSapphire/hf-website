@@ -12,6 +12,6 @@ function showSlides() {
   setTimeout(showSlides, 30000); // Change image every 30 seconds
 }  
 
-if (window.location.pathname == "/index.html") {
+console.log(window.location.pathname); if (window.location.pathname == "/index.html") {
   showSlides();
 }
