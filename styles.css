@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  color: black;
+  color: #363636;
   background-color: white;
 }
 
@@ -64,12 +64,14 @@ label {
   margin: 0.5rem 0;
 }
 p {
-  font-size:150%;
+  font-size:135%;
 }
 .Alink {
   font-size: 150%;
 }
-
+footer {
+  color: #363636;
+}
 
 
 
