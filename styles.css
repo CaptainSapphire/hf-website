@@ -165,3 +165,10 @@ footer {
   width: 50%;
 }
 /**/
+form, input {
+  font-family: sans-serif;
+}
+fieldset {
+  border: solid 3px #385780;
+  font-family: system-ui, sans-serif;
+}
