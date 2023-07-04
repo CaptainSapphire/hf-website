@@ -72,10 +72,13 @@ p {
   font-size: 150%;
 }
 footer {
-  color: #363636;
+  color: #bbb;
+  background-color: #385780;
+  text-align: center;
 }
-
-
+#footer-link {
+  color: #bbb;
+}
 
 /**/
 * {box-sizing:border-box}
@@ -186,7 +189,4 @@ fieldset {
 }
 small {
   font-family: sans-serif;
-}
-#footer-link {
-  text-decoration: none;
 }
