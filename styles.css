@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: system-ui, sans-serif;
 }
 
 body {
@@ -171,4 +172,21 @@ form, input {
 fieldset {
   border: solid 3px #385780;
   font-family: system-ui, sans-serif;
+}
+
+#submit {
+  background-color: #385780;
+  border: 3px solid #aaa;
+  color: #f2f2f2;
+  height: 30px;
+  width: 90px;
+}
+#submit:hover {
+  background-color: #aaa;
+}
+small {
+  font-family: sans-serif;
+}
+#footer-link {
+  text-decoration: none;
 }

@@ -21,7 +21,9 @@
       <h1>Book a Repair</h1>
 <!-- CREATE ACTUAL FUNCTIONALITY -->
   <form>
-    <p>Please fill out the following to book a repair. Once you fill this out, I will reach out to you to provide a date for you to drop it off for repairs.</p>
+    <p>Please fill out the following to book a repair. Once submitted, I will reach out to provide a date for you to drop it off for repairs.</p>
+    <small style="color: red">*All fields are required. </small>
+    <br>
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
         <label for="first-name">First & Last Name: <input id="first-name" name="first-name" type="text" required placeholder="John Smith"/></label>
@@ -30,7 +32,7 @@
         <label for="pnumber"> Phone Number: <input id="pnumber" name="pnumber" type="number" required  placeholder="+1 213-555-0181" /></label>
       
         <br>
-        <label for="service">What service?
+        <label for="service">What service? 
           <select id="service" name="service">
             <option value="">  </option>
             <option value="1"> Single Pad Replacement-25$</option>
@@ -39,17 +41,18 @@
     </fieldset>
     <!-- Create a list of Terms and Conditions on it's own page probably, will want to also link this in footer -->
     <label for="terms-and-conditions">
-      <input id="terms-and-conditions" type="checkbox"  name="terms-and-conditions" required /> I accept the <a href="/page6.html" style="color: #385780">terms and conditions.</a>
+      <input id="terms-and-conditions" type="checkbox"  name="terms-and-conditions" required /> I accept the <a href="/page6.html" style="color: #385780">terms and conditions/terms of service.</a>
     </label>
   </fieldset>
   <br>
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit" name="submit" id="submit"/>
       <br><br>
     </form>
     <footer>
-      <address>
-        email: harrisonformanmusic@gmail.com, <br>
-        phone number: +1(818) 456-9050</address>
-        <a href="/page6.html" style="color: #385780">Terms and Conditions</a>
-  </footer>
+    <address>
+      email: harrisonformanmusic@gmail.com <br>
+      phone number: +1(818) 456-9050</address>
+      <i>
+      <a href="/page6.html" style="color: #385780" id="footer-link">Terms and Conditions</a></i>
+</footer>
   </main>
