@@ -24,13 +24,14 @@
     <p>Please fill out the following to book a repair. Once you fill this out, I will reach out to you to provide a date for you to drop it off for repairs.</p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
-        <label for="first-name">Enter Your First & Last Name: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="first-name">First & Last Name: <input id="first-name" name="first-name" type="text" required placeholder="John Smith"/></label>
         <br>
-        <label for="pnumber">Enter Your Phone number: <input id="pnumber" name="pnumber" type="number" required /></label>
+        <!--THE PLACEHOLDER NUMBER WAS GENERATED, IT IS NOT REAL, DW-->
+        <label for="pnumber"> Phone Number: <input id="pnumber" name="pnumber" type="number" required  placeholder="+1 213-555-0181" /></label>
       
         <br>
         <label for="service">What service?
-          <select id="service" name="serice">
+          <select id="service" name="service">
             <option value="">  </option>
             <option value="1"> Single Pad Replacement-25$</option>
             <option value="2">Custom</option>
