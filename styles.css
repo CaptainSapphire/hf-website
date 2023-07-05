@@ -141,7 +141,7 @@ footer {
   width: 40%;
 }
 #photos {
-  text-align: right;
+  text-align: center;
 }
 .dot {
   margin-left: auto;
@@ -173,4 +173,3 @@ fieldset {
 small {
   font-family: sans-serif;
 }
- 
