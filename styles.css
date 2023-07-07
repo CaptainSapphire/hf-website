@@ -18,7 +18,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #aaa;
-  background-image: linear-gradient(180deg,#273C58, 40%, #385780);
+  background-image: linear-gradient(180deg,#1c2c41, 40%, #385780);
 }
 
 nav a {
