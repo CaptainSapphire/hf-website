@@ -17,7 +17,7 @@ nav {
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
+  border-bottom: solid 3px #aaa;
   background-image: linear-gradient(180deg,#243954, 40%, #385780);
 }
 
