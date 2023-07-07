@@ -181,4 +181,6 @@ small {
   width: 25rem;
   margin: auto;
   align-content: center;
+  border: 4px solid #FACE2D;
+  border-radius:30px;
 }
