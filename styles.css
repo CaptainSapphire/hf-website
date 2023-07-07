@@ -75,6 +75,10 @@ footer {
   color: #bbb;
   background-color: #385780;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
 }
 #footer-link {
   color: #bbb;
