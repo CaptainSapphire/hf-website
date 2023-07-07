@@ -177,3 +177,8 @@ fieldset {
 small {
   font-family: sans-serif;
 }
+.homepic {
+  width: 25rem;
+  margin: auto;
+  align-content: center;
+}
