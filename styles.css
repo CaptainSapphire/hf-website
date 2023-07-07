@@ -178,9 +178,9 @@ small {
   font-family: sans-serif;
 }
 .homepic {
-  width: 25rem;
+  width: 30rem;
   margin: auto;
   align-content: center;
   border: 4px solid #FACE2D;
-  border-radius:30px;
+  border-radius: 30px;
 }
