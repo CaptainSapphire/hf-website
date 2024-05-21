@@ -7,3 +7,4 @@ To-do:
 - rename pages
 - move pages to the folder --> update the header on each page
 - move images to folder --> update the images on each page
+- see if forman wants a "hire for performances" aspect to this site
